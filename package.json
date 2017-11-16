@@ -4,6 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+        "start": "babel-node src/index.js",
+        "lint": "standard --fix",
         "test": "jest",
         "test:cover": "jest --coverage",
         "test:watch": "jest --watch --coverage"
@@ -11,9 +13,15 @@
     "author": "superzadeh <superzadeh@outlook.com>",
     "license": "MIT",
     "devDependencies": {
+        "babel-cli": "^6.26.0",
         "babel-jest": "21.2.0",
         "babel-polyfill": "6.26.0",
         "babel-preset-env": "1.6.1",
-        "jest": "21.2.1"
+        "jest": "21.2.1",
+        "lodash": "^4.17.4",
+        "standard": "^10.0.3"
+    },
+    "standard": {
+        "env": ["jest"]
     }
 }

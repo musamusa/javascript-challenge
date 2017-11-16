@@ -1,5 +1,5 @@
 
-export default  [
+export default [
   {
     name: 'Adaptive',
     answers: [
@@ -12,8 +12,8 @@ export default  [
       'I am flexible',
       'I adjust easily to changing environments',
       'I welcome change',
-      'I am a curious person',
-    ],
+      'I am a curious person'
+    ]
   },
   {
     name: 'Integrity',
@@ -27,8 +27,8 @@ export default  [
       'I always tell the truth',
       'I lead by example',
       'I am not easily offended',
-      'I always try to do the right thing',
-    ],
+      'I always try to do the right thing'
+    ]
   },
   {
     name: 'Collaborative',
@@ -42,8 +42,8 @@ export default  [
       'I am a good communicator',
       'I share responsibilities',
       'I like working together with others',
-      'I am always available to help out a colleague in need',
-    ],
+      'I am always available to help out a colleague in need'
+    ]
   },
   {
     name: 'Result',
@@ -57,8 +57,8 @@ export default  [
       'I set clear goals',
       'I am good at identifying effective processes',
       'I am action oriented',
-      'I focus on the outcome, rather than the process',
-    ],
+      'I focus on the outcome, rather than the process'
+    ]
   },
   {
     name: 'Customer',
@@ -72,8 +72,8 @@ export default  [
       'I work to satisfy our customers',
       'I put the customer\'s requirements ahead of anything else',
       'I highly value customer feedback',
-      'I base my decisions on what our customers need & want',
-    ],
+      'I base my decisions on what our customers need & want'
+    ]
   },
   {
     name: 'Detail',
@@ -87,7 +87,7 @@ export default  [
       'I am analytical ',
       'I am good at understanding cause-and-effect relationships',
       'I am accurate in my work',
-      'I notice mistakes quickly',
-    ],
-  },
-];
+      'I notice mistakes quickly'
+    ]
+  }
+]
