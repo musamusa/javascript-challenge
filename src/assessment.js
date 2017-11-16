@@ -97,6 +97,11 @@ class Assessment {
     return this.currentQuestionStack
   }
 
+  showAnswersList () {
+    const answers = this.showAnswers().map(answer => `<li>${answer}</li>`).join('')
+    return `Pick the answer that describes you best: <br> <ul>${answers}</ul>`
+  }
+
   getUserResponse (index) {
     const category = this.currentCategoryStack[index - 1]
     if ([1, 2].indexOf(index) < 0) {
